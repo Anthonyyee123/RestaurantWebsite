@@ -59,4 +59,4 @@ app.route('/contact').post(contactController.addContact); //success
 app.route('/Useremail/:userinfo_id').get(contactController.getUsernameandEmail); //success innerjoin
 
 app.listen(8080, "ec2-3-90-56-139.compute-1.amazonaws.com"); // start the nodejs to be listening for incoming request @ port 8080
-console.log("web server running @ http://ec2-3-90-56-139.compute-1.amazonaws.com:8080"); // output to console 
+console.log("web server running @ http://ec2-3-90-56-139.compute-1.amazonaws.com"); // output to console 
