@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@450&display=swap');
+
+
+body {
+    background-image: url(../images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg);
+    font-family: 'Work Sans', sans-serif;
+    background-size: contain 100%;
+    background-position: center; 
+    background-repeat: repeat;
+}
+
+.full-screen {
+    width: 80vw;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    display:block ;
+}
+
+ nav {
+     text-align: center;
+ }
+
+ .navbar {
+    background-color: #BADBFF;
+ }
+
+
+ .logo {
+     height: 100px;
+ }
+ 
+ nav ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ 
+ nav li {
+     display: inline-block;
+    margin-right: 125px;
+ }
+
+
+ nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+ }
+ 
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #388EE9;
+}
+
+h1 {
+    display: flex;
+  justify-content: center;
+  color: #FFAE42;
+}
+
+.boxes {
+max-width: 600px;
+min-height: 600px;
+}
+
+.container-explore h1 {
+    color: #FFAE42;
+}
+
+.Explore {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+   margin-left: auto;
+   margin-right:auto ;
+   font-size: 20px;
+   display: flex;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.fas {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+#container {
+    width:100%;
+    margin:20px auto;
+    position: relative;
+}
+
+#content {
+    float: right;
+    width: 75%;
+}
+
+.sidebar {
+    float:left;
+    width: 25%;
+}
+
+.whitebox {
+    height: 500px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.whitebox2 {
+    height: 500px;
+    width: 100%;
+}
+
+.sidebox {
+    height: 500px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+.card-align {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+
+#icon-size {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#space {
+    margin-bottom: auto;
+}
+
+#text-decor {
+    text-decoration: none;
+    color: black;
+}
+
+.box-radius {
+    border-radius: 15px;
+}
+
+
+
+
+
+
+

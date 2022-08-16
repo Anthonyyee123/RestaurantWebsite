@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Introduction to HTML</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/86ec7c1143.js" ></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<style>
+</style>
+<body>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#editCommentModal">
+        Launch demo modal
+      </button>
+
+    <div class="modal fade" id="editCommentModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-m" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-center">
+                    <p class="modal-title text-light">Deleting Review:</p>
+                    
+                </div>
+                <div class="modal-body px-5">
+                    <!-- All input to be sent to server, and buttons must be within the 'form' tag -->
+                    <form id="commentForm">
+                        <div class="row text-center" id="commentBody">
+                            <div class = "col-lg-12">
+                                    <img src = "images/remove.png" width="100px" height="100px">
+                            </div>
+                            
+                            <div class = "col-lg-12">
+                                <h1>Are You sure?</h1>
+                            </div>
+
+                            <div class = "col-lg-12">
+                                <p>Do you really want to delete this review?</p>
+                                <p>This Process cannot be undone</p>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal" id="submitComment" onClick="addComment()">Delete</button>
+                               <button type="button" class="btn btn-secondary bg-success" data-dismiss="modal">Cancel</button>
+                           </div>
+                            
+                            
+                        </div>
+    
+                      
+                            
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+</body>
+</html>
