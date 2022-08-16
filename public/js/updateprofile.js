@@ -15,7 +15,7 @@ function update() {
 
 var updateUser =  new XMLHttpRequest();
 
-updateUser.open("PUT", "http://127.0.0.1:8080/userinfo", true);
+updateUser.open("PUT", "http://ec2-3-90-56-139.compute-1.amazonaws.com:8080/userinfo", true);
 updateUser.setRequestHeader("Content-Type", "application/json");
 
 updateUser.onload = function() {
@@ -40,7 +40,7 @@ updateUser.send(JSON.stringify(payload));
 function updatepassword() {
     var updatepassword =  new XMLHttpRequest();
 
-    updatepassword.open("PUT", "http://127.0.0.1:8080/userinfo", true);
+    updatepassword.open("PUT", "http://ec2-3-90-56-139.compute-1.amazonaws.com:8080/userinfo", true);
     updatepassword.setRequestHeader("Content-Type", "application/json");
 
     var feedback = ""
