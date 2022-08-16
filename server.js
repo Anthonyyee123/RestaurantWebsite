@@ -58,5 +58,5 @@ app.route('/contact').get(contactController.getAllContact); //success
 app.route('/contact').post(contactController.addContact); //success
 app.route('/Useremail/:userinfo_id').get(contactController.getUsernameandEmail); //success innerjoin
 
-//app.listen(8080, "127.0.0.1"); // start the nodejs to be listening for incoming request @ port 8080
-//console.log("web server running @ http://127.0.0.1:8080"); // output to console 
+app.listen(8080, "127.0.0.1"); // start the nodejs to be listening for incoming request @ port 8080
+console.log("web server running @ http://127.0.0.1:8080"); // output to console 
