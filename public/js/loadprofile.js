@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     var getProfile = new XMLHttpRequest();
     
-    getProfile.open("POST", "http://127.0.0.1:8080/profileUsers",true);
+    getProfile.open("POST", "http://ec2-3-90-56-139.compute-1.amazonaws.com:8080/profileUsers",true);
     getProfile.setRequestHeader("Content-Type", "application/json");
     getProfile.onload = function() {
         var profile = JSON.parse(getProfile.responseText);
