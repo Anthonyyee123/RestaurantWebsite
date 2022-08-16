@@ -104,7 +104,7 @@ function logMeIn(){
        //sessionStorage.setItem("token",token.result);
 var loginUser =  new XMLHttpRequest();
 
-loginUser.open("POST", "http://127.0.0.1:8080/login", true);
+loginUser.open("POST", "http://ec2-3-90-56-139.compute-1.amazonaws.com/login", true);
 loginUser.setRequestHeader("Content-Type", "application/json");
 
 loginUser.onload = function(){
